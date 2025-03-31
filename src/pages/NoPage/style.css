@@ -1,0 +1,23 @@
+#NoPage_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: var(--color-font)
+}
+
+#noPage_Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+}
+
+#noPage_Text {
+    font-family: sans-serif;
+    font-weight: 200;
+}

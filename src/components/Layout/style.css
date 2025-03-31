@@ -1,0 +1,48 @@
+#root {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto minmax(auto,100%) auto;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    & ul {
+        display: flex;
+        list-style: none;
+        & li { padding: 5px; }
+        & li a {
+            color: var(--color-font);
+            text-decoration: none;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            &:hover{
+                color: var(--color-font-hover);
+            }
+        }
+    }
+}
+
+#navbar_menu {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#Main {
+    overflow-y: auto;
+}
+
+#Footer {
+    height: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+#Copyright { 
+    font-family: sans-serif;
+    font-size: 14px;
+    color: var(--color-font);
+}
+
+.shadow { box-shadow: 0px 0px 20px 5px var(--color-shadow); z-index:999; }
